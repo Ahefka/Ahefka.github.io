@@ -1,0 +1,123 @@
+html{
+	background-image: url(http://www.cherie-cheri-shop.com/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
+	background-attachment: fixed;
+}
+
+body{
+	margin: 0px auto;
+	text-align: center;
+	width: 60%;
+	height: 100%;
+	box-shadow: 1px 1px 100px black;
+	font-family: 'Chela One', cursive;
+	background-color: white;
+	color: #4F4F4F;
+}
+
+.titre{
+	margin-top: 0px;
+	background-color: grey;
+	font-size: 60px;
+	font-weight: 900;
+	color: #4F4F4F;
+}
+
+.tableau{
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 80%;
+}
+
+.nom{
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+.information{
+	text-align: left;
+}
+
+.nominfo{
+	border-right: 5px solid #4F4F4F;
+	padding-right: 100px;
+}
+
+.photo{
+	height: 150px;
+	margin-left: 100px;
+}
+
+.Présentation{
+	border-top: 10px solid #4F4F4F;
+	color: #4F4F4F;
+	font-size: 30px;
+	font-style: italic;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.exptitre{
+	border: double 10px #4F4F4F;
+	border-radius: 10px;
+	margin: 0px 10px 0px 10px;
+	font-size: 40px;
+	color: #4F4F4F;
+}
+
+.exp1{
+	margin: 10px 10px;
+	text-align: left;
+	font-size: 25px;
+	padding: 5px;
+	font-weight: 900;
+}
+
+.exp{
+	margin: 10px 10px;
+	text-align: left;
+	font-size: 25px;
+	padding: 5px;
+	border-top: 2px solid #4F4F4F;
+	font-weight: 900;
+}
+
+ul{
+	text-align: left;
+	font-size: 18px;
+}
+
+.comp{
+	margin: 10px auto;
+}
+
+.langue{
+	height: 20px;
+}
+
+footer{
+	bottom: 0;
+	background-color: grey;
+	height: 10%;
+	width: 100%;
+}
+
+.Réseaux{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+a > img{
+	height: 50px;
+	padding: 10px 80px 10px 80px;
+
+	transition-property: height;
+	transition-duration: 0.5s;
+}
+
+a > img:hover{
+	height: 60px;
+}
