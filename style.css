@@ -1,6 +1,7 @@
 html{
 	background-image: url(http://www.cherie-cheri-shop.com/wp-content/uploads/2015/01/Grey-background-for-site11.jpg);
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 body{
@@ -8,7 +9,7 @@ body{
 	text-align: center;
 	width: 60%;
 	height: 100%;
-	box-shadow: 1px 1px 100px black;
+	box-shadow: 1px 1px 100px #8C0900;
 	font-family: 'Chela One', cursive;
 	background-color: white;
 	color: #4F4F4F;
@@ -16,17 +17,18 @@ body{
 
 .titre{
 	margin-top: 0px;
-	background-color: grey;
+	margin-bottom: 0px;
+	background-color: #FD5454;
 	font-size: 60px;
 	font-weight: 900;
 	color: #4F4F4F;
 }
 
 .tableau{
-	margin: auto;
+	margin: 0px auto;
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	width: 80%;
 }
 
@@ -40,17 +42,24 @@ body{
 }
 
 .nominfo{
-	border-right: 5px solid #4F4F4F;
-	padding-right: 100px;
+	margin: auto;
+}
+
+.separ{
+	line-height: 200px;
+	width: 5px;
+	margin: 15px auto;
+	background-color: #FD5454;
+	text-indent: -9999px;
 }
 
 .photo{
-	height: 150px;
-	margin-left: 100px;
+	height: 180px;
+	margin: auto;
 }
 
 .Présentation{
-	border-top: 10px solid #4F4F4F;
+	border-top: 10px solid #FD5454;
 	color: #4F4F4F;
 	font-size: 30px;
 	font-style: italic;
@@ -60,11 +69,11 @@ body{
 }
 
 .exptitre{
-	border: double 10px #4F4F4F;
+	border: double 10px #FD5454;
 	border-radius: 10px;
 	margin: 0px 10px 0px 10px;
 	font-size: 40px;
-	color: #4F4F4F;
+	color: #FD5454;
 }
 
 .exp1{
@@ -80,7 +89,7 @@ body{
 	text-align: left;
 	font-size: 25px;
 	padding: 5px;
-	border-top: 2px solid #4F4F4F;
+	border-top: 2px solid #FD5454;
 	font-weight: 900;
 }
 
@@ -99,7 +108,7 @@ ul{
 
 footer{
 	bottom: 0;
-	background-color: grey;
+	background-color: #FD5454;
 	height: 10%;
 	width: 100%;
 }
@@ -112,7 +121,7 @@ footer{
 
 a > img{
 	height: 50px;
-	padding: 10px 80px 10px 80px;
+	margin: 10px 80px 10px 80px;
 
 	transition-property: height;
 	transition-duration: 0.5s;
